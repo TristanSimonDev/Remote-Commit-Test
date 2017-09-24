@@ -1,6 +1,6 @@
 const { execSync } = require("child_process");
 
-for (let i = 2000; i < 2225; i++) {
+for (let i = 2500; i < 2520; i++) {
     let rnd = Math.ceil(Math.random() * 3);
 
     for (let j = 1; j < rnd; j++) {
