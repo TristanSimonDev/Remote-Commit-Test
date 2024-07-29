@@ -1,6 +1,6 @@
 const { execSync } = require("child_process");
 
-for (let i = 2500; i < 2520; i++) {
+for (let i = 1; i < 2500; i++) {
     let rnd = Math.ceil(Math.random() * 3);
 
     for (let j = 1; j < rnd; j++) {
@@ -11,5 +11,5 @@ for (let i = 2500; i < 2520; i++) {
             ).toISOString()}" -m "commit"`
         );
     }
+    execSync("git push origin main"); // Moved outside of the write callback
 }
-execSync("git push origin main"); // Moved outside of the write callback
