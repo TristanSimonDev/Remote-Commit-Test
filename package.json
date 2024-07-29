@@ -1,0 +1,11 @@
+{
+  "name": "commit-push",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/GlitchGraph.js"
+  },
+  "author": "TristamSimonDev",
+  "license": "ISC",
+  "description": ""
+}
