@@ -1,7 +1,7 @@
 const { execSync } = require("child_process");
 
 for (let i = 1; i < 2500; i++) {
-    let rnd = Math.ceil(Math.random() * 24);
+    let rnd = Math.floor(Math.random() * 24) + 1;
 
     for (let j = 1; j < rnd; j++) {
         execSync("git add .");
